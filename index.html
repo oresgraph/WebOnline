@@ -2,14 +2,19 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<meta description="Proyecto de la primera generaión del curso de diseño web online" />
+		<meta name="description" content="Proyecto de la primera generaión del curso de diseño web online" />
 		<title>proyecto diseño web online</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="estilos.css">
 	</head>
 	<body>
 		<header>
-			<h1>Pagina html5</h1>
 			<figure id="logo">
 				<img src="logo.png" />
+			</figure>
+			<h1>Pagina html5</h1>
+			<figure id="avatar">
+				<img src="avatar.jpg" />
 			</figure>
 		</header>
 		
@@ -20,7 +25,7 @@
 				<li><a href="#">Javascript</a></li>
 				<li><a href="#">CSS3</a></li>
 				<li><a href="#">Django</a></li>
-				<li><a href="#">Publicar</a></li>
+				<li id="publicar_nav"><a href="#">Publicar</a></li>
 
 			</ul>
 		</nav>
@@ -28,24 +33,29 @@
 		<section id="contenido">
 			<article class="item">
 			   <figure class="imagen_item"><img src="imagen.jpg"/></figure>
-			   <h2><a href="#">título del artículo</a></h2>
+			   <h2 class="titulo_item">
+				<a href="#">
+					Crear un login con Laravel
+				</a>
+				</h2>
 			   <div class="autor_item">por <a href="#">Orestes</a></div>
 			   <div class="datos_item">
 			   	 <a href="#" class="tag_item">pony</a>
 			   	 <span class="fecha_item">hace <strong>5 minutos</strong></span>
-			   	 <a href="#" class="comentarios_item">69</a>
-			   	 <a href="#" class="guardar_item"></a>
 			   </div>
 			   <div class="votacion">
-			   		<a href="#">up</a>
+			   		<a href="#" class="up"></a>
 			   		720
-			   		<a href="#">dow</a>
+			   		<a href="#" class="dow"></a>
+			   		<a href="#" class="comentarios_item">69</a>
+			   	 	<a href="#" class="guardar_item"></a>
 			   </div>
 			</article>
 		</section>
 		
 		<footer>
-			<p>Power by osidentidad.com</p>
+			<p>Power by <b>Ores</b></p>
+			<p><b>osidentidad.com</b></p>
 		</footer>
 	</body>
 </html>

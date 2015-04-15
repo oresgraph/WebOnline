@@ -1,0 +1,158 @@
+a{
+	color: #22bce0;
+}
+body{
+	background: #eeeeee;
+	font-family: Arial;
+	font-size: 16px;
+}
+footer{
+	background: #22bce0;
+	color:#fff;
+	text-align: center;
+	padding: 1em;
+}
+footer p:first-child{ /*esto es una seudo clase*/
+	margin-bottom: 0;
+}
+footer p:last-child{ /*esto es una seudo clase*/
+	margin-top: 0;
+}
+header{
+	background: #343b54;
+	color: #fff;
+	padding: 0.5em;
+	overflow: hidden;
+}
+header figure{
+	float: left;
+}
+header h1{
+	font-size: 1.8em;
+	font-weight: normal;
+	margin: 1em 100px 0 0;
+}
+header #avatar{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+header #avatar img{
+	border-radius: 50%;
+	width: 52px;
+}
+header #logo img{
+	border-right: 1px solid #fff;
+	padding-right: 0.5em;
+	width: 52px;
+}
+nav{
+	background: #80bca3;
+	padding: 0 0.5em;
+	position: relative;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul #publicar_nav{
+	position: absolute;
+	top: -0.3em;
+	right: 0.4em;
+}
+nav ul #publicar_nav a {
+	border-radius: 0.5em;
+	background: #22bce0;
+	box-shadow:rgba(0,0,0,0.5) 5px 5px 20px;
+	padding: 0.8em 0.5em;
+	text-decoration: none;
+	text-shadow:rgba(0,0,0,0.5) 0px 1px 1px;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+#contenido{
+	margin: 1em;
+}
+#contenido .item{
+	background: white;
+	border-bottom:3px solid #22bce0;
+	margin-bottom: 3em;
+	position: relative;
+	min-height: 128px;
+}
+#contenido .item .autor_item{
+	color: #ccc;
+}
+#contenido .item .datos_item .fecha_item{
+	color: #ccc;
+}
+#contenido .item .datos_item{
+	margin-top: 1em;
+	text-align: right;
+}
+#contenido .item .datos_item .tag_item{
+	background: #f4502a;
+	color: white;
+	float: left;
+	text-decoration: none;
+	padding: 0.5em;
+	border-radius: 0.5em;
+}
+#contenido .item .imagen_item{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img{
+	width: 96px;
+}
+#contenido .item .titulo_item{
+	font-size: 1.2em;
+	font-style: italic;
+	padding:0.5em 0.5em 0 0;
+}
+#contenido .item .titulo_item a{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .votacion {
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin-top: 3px;
+	position: absolute;
+	padding: 0.2em 0.5em;
+	top: 100%;
+	left: 2.5%;
+	width: 95%;
+}
+#contenido .item .votacion .comentarios_item, #contenido .item .votacion .guardar_item{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
